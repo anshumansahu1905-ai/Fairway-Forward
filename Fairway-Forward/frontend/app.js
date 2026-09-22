@@ -4,7 +4,7 @@ const email = document.querySelector('#email');
 const password = document.querySelector('#password');
 const message = document.querySelector('#auth-message');
 const title = document.querySelector('#modal-title');
-const API_BASE = window.FF_API_BASE || (location.port === '5000' ? '' : 'http://localhost:5000');
+const API_BASE = 'https://fairway-forward-1.onrender.com';
 const signupOptions = document.querySelector('#signup-options');
 const signupName = document.querySelector('#signup-name');
 const plan = document.querySelector('#plan');
