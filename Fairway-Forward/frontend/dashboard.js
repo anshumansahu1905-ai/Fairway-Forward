@@ -1,4 +1,4 @@
-const API_BASE = window.FF_API_BASE || (location.port === '5000' ? '' : 'http://localhost:5000');
+const API_BASE = 'https://fairway-forward-1.onrender.com';
 const token = localStorage.getItem('ff_token');
 let scores = [];
 let member = JSON.parse(localStorage.getItem('ff_member') || 'null');
